@@ -1,0 +1,35 @@
+header {
+  margin-bottom: 5rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+  color: navy;
+}
+
+body {
+  line-height: 1;
+  font: ariel;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: : column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.item {
+  order: 0;
+  flex-grow: 1;
+}
